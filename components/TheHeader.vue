@@ -3,7 +3,11 @@
 <template>
   <header class="flex justify-center pt-5 pb-5 flex justify-around flex-wrap">
     <div class="logo">
-      <NuxtLink to="/"><h1 class="text-white">Nuxt Movies</h1></NuxtLink>
+      <NuxtLink to="/"
+        ><h1 class="text-white hover:text-green-400 transition duration-500">
+          Nuxt Movies
+        </h1></NuxtLink
+      >
     </div>
     <form action="" v-on:click.prevent class="flex gap-4">
       <input type="text" name="SearchMovie" id="" class="rounded-xl w-64 h-8" />

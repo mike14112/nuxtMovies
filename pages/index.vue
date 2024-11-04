@@ -3,7 +3,13 @@ useSeoMeta({
   title: "nuxtMovies",
 });
 </script>
-<template><div></div></template>
+<template>
+  <main>
+    <div class="containerflex flex-col mx-[14.5rem]">
+      <h2 class="text-white">Week Movies</h2>
+    </div>
+  </main>
+</template>
 
 <style global>
 body {
